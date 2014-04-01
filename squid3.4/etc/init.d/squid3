@@ -18,7 +18,7 @@
 NAME=squid3
 DESC="Squid HTTP Proxy 3.4.3"
 DIRCOMP=/opt/squid3/squid-3.4.3
-DAEMON=${DIRCOMP}/sbin/squid3
+DAEMON=${DIRCOMP}/sbin/squid
 PIDFILE=/var/run/$NAME.pid
 CONFIG=/etc/squid3/squid.conf
 SQUID_ARGS="-YC -f $CONFIG"
