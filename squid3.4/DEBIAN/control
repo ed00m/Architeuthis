@@ -1,5 +1,4 @@
-Package: squid3.4
-Source: squid3.4 (3.4.3)
+Package: squid3
 Version: 3.4.3
 Architecture: amd64
 Maintainer: Pablo Zuniga <pablo@sinaltec.cl>
