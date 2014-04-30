@@ -35,7 +35,7 @@ shouldnotlink=no
 
 # Files to dlopen/dlpreopen
 dlopen=''
-dlpreopen=' /home/ed00m/Develop/squid3.4/squid-3.4.3/libltdl/./.libs/dlopen.a'
+dlpreopen=' /home/ed00m/Develop/Architeuthis/squid-3.4.3/libltdl/./.libs/dlopen.a'
 
 # Directory that this library needs to be installed in:
 libdir=''

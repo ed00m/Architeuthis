@@ -4477,9 +4477,6 @@ refresh_pattern .		0	20%	4320
 # read_ahead_gap 16 KB
 
 #  TAG: negative_ttl	time-units
-# Note: This option is only available if Squid is rebuilt with the
-#       --enable-http-violations
-#
 #	Set the Default Time-to-Live (TTL) for failed requests.
 #	Certain types of failures (such as "connection refused" and
 #	"404 Not Found") are able to be negatively-cached for a short time.
@@ -4647,9 +4644,6 @@ refresh_pattern .		0	20%	4320
 # chunked_request_body_max_size 64 KB
 
 #  TAG: broken_posts
-# Note: This option is only available if Squid is rebuilt with the
-#       --enable-http-violations
-#
 #	A list of ACL elements which, if matched, causes Squid to send
 #	an extra CRLF pair after the body of a PUT/POST request.
 #
@@ -4684,9 +4678,6 @@ refresh_pattern .		0	20%	4320
 # adaptation_uses_indirect_client on
 
 #  TAG: via	on|off
-# Note: This option is only available if Squid is rebuilt with the
-#       --enable-http-violations
-#
 #	If set (default), Squid will include a Via header in requests and
 #	replies as required by RFC2616.
 #Default:
@@ -4738,9 +4729,6 @@ refresh_pattern .		0	20%	4320
 # request_entities off
 
 #  TAG: request_header_access
-# Note: This option is only available if Squid is rebuilt with the
-#       --enable-http-violations
-#
 #	Usage: request_header_access header_name allow|deny [!]aclname ...
 #
 #	WARNING: Doing this VIOLATES the HTTP standard.  Enabling
@@ -4807,9 +4795,6 @@ refresh_pattern .		0	20%	4320
 # No limits.
 
 #  TAG: reply_header_access
-# Note: This option is only available if Squid is rebuilt with the
-#       --enable-http-violations
-#
 #	Usage: reply_header_access header_name allow|deny [!]aclname ...
 #
 #	WARNING: Doing this VIOLATES the HTTP standard.  Enabling
@@ -4860,9 +4845,6 @@ refresh_pattern .		0	20%	4320
 # No limits.
 
 #  TAG: request_header_replace
-# Note: This option is only available if Squid is rebuilt with the
-#       --enable-http-violations
-#
 #	Usage:   request_header_replace header_name message
 #	Example: request_header_replace User-Agent Nutscrape/1.0 (CP/M; 8-bit)
 #
@@ -4877,9 +4859,6 @@ refresh_pattern .		0	20%	4320
 # none
 
 #  TAG: reply_header_replace
-# Note: This option is only available if Squid is rebuilt with the
-#       --enable-http-violations
-#
 #        Usage:   reply_header_replace header_name message
 #        Example: reply_header_replace Server Foo/1.0
 #
@@ -7551,9 +7530,6 @@ refresh_pattern .		0	20%	4320
 # refresh_all_ims off
 
 #  TAG: reload_into_ims	on|off
-# Note: This option is only available if Squid is rebuilt with the
-#       --enable-http-violations
-#
 #	When you enable this option, client no-cache or ``reload''
 #	requests will be changed to If-Modified-Since requests.
 #	Doing this VIOLATES the HTTP standard.  Enabling this

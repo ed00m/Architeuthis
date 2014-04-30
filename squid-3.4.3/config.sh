@@ -14,12 +14,13 @@
  '--disable-snmp' \
  '--disable-wccp' \
  '--disable-wccpv2' \
- '--disable-http-violations' \
+ #'--disable-http-violations' \
  '--disable-translation' \
  '--disable-auto-locale' \
  '--disable-htcp' \
  '--disable-internal-dns' \
  '--with-default-user=proxy' \
+ '--enable-http-violations' \
  '--enable-disk-io' \
  '--enable-storeio=ufs,aufs,diskd,rock' \
  '--enable-icmp' \
